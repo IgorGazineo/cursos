@@ -181,3 +181,51 @@ function getBook(id) {
     Exiba o resultado dos elementos no console.
 
 */
+
+/*
+
+04) Aula 19 - Operador rest/spread:
+
+  Copie o código onde foi feito a desestruturação do array "genres", cole na seção abaixo e comente a linha de código da seção acima.
+
+  Usando o operador rest, passe os valores restantes no array "genres" para uma variável de nome "otherGenres" e exiba os valores no console.
+
+*/
+
+/*
+
+05) Aula 19 - Operador rest/spread:
+
+  Crie uma constante de nome "newGenres" e usando o operador spread, faça com que os valores do array "genres" sejam passados para esse novo array, adicionando um elemento do tipo string com o valor: "epic fantasy". 
+
+  Exiba o resultado do "newGenres" no console.
+
+  Todos os elementos do novo array "newGenres" devem ser do tipo string.
+
+*/
+
+/*
+
+06) Aula 19 - Operador rest/spread:
+
+  Crie uma constante de nome "lordOfTheRingsBook" que recebe o retorno da invocação da função "getBook" passando o valor *1* como argumento.
+
+  Exiba no console o retorno da expressão que acessa a propriedade "moviePublicationDate" do objeto "lordOfTheRingsBook". Ps: O valor retornado deve ser "undefined".
+
+  Crie uma constante de nome "updatedBook" e usando o operador spread, faça com que a constante "updatedBook" receba todos os valores do objeto "lordOfTheRingsBook" e mais uma nova propriedade com a chave: "moviePublicationDate" e valor: "2001-12-19".
+
+  Exiba no console o retorno da expressão que acessa a propriedade "pages" do objeto "updatedBook".
+
+*/
+
+/*
+
+07) Aula 19 - Operador rest/spread:
+
+ Exiba no console o retorno da expressão que acessa a propriedade "pages" do objeto "updatedBook".
+
+  Crie uma constante de nome "updatedBook2" e usando o operador spread, faça com que a constante "updatedBook2" receba todos os valores do objeto "updatedBook" mas com o valor da propriedade "pages" atualizado para: *1220*.
+
+  Exiba no console o retorno da expressão que acessa a propriedade "pages" do objeto "updatedBook2".
+
+*/
