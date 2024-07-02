@@ -236,7 +236,7 @@ function getBook(id) {
 
   Crie uma variável "myBook" com a palavra-chave "let" que recebe o retorno da invocação da função "getBook", passando como argumento da função um número de sua escolha entre 1 e 4 (incluindo o 1 e o 4) que representa o id de um dos objeto do array "data".
 
-  Use a sintaxe de destructuring assignment para obter os valores das propriedades "title", "author", "pages" e "publicationDate" que estão no objeto "myBook" e mude o nome das variáveis seguindo o padrão em que a variável "title" passa a ser "myTitle" e assim por diante.
+  Use a sintaxe de destructuring assignment para obter os valores das propriedades "title", "author", "pages" e "publicationDate" que estão no objeto "myBook" e mude o nome das variáveis seguindo o padrão em que a variável "title" passa a ser "bookTitle" e assim por diante.
 
   Crie uma constante de nome "summary" que recebe o valor: "TITULO_DO_LIVRO, a NUMERO_DE_PÁGINAS-page long book, was written by AUTOR_DO_LIVRO and published in DATA_DA_PUBLICAÇÃO."
 
@@ -253,5 +253,25 @@ function getBook(id) {
   Faça com que a variável "myBook" receba o mesmo valor da questão acima, com a diferença que a expressão que retorna o valor da "DATA_DA_PUBLICAÇÃO", retorne apenas o ano do livro.
 
   Use o método "split" para isso.
+
+*/
+
+/*
+
+10) Aula 21 - Operador ternary:
+
+  Crie uma constante chamada "pagesRange" que recebe o resultado de uma expressão utilizando o operador ternário. Para isso, utilize a variável "bookPages" da questão 20 e faça essa expressão retornar o valor "over 1000" caso o valor da variável seja maior que 1000. Caso seja menor que 1000, a expressão deve retornar o valor "less than 1000".
+
+  Exiba a constante "pagesRange" no console.
+
+*/
+
+/*
+
+11) Aula 21 - Operador ternary:
+
+  Exiba no console a string "The book has over 1000 pages" caso o valor da variável "bookPages" seja maior que 1000. Caso seja menor, exiba a string "The book has less than 1000 pages". 
+
+  Faça uma interpolação utilizando Template Literals e coloque diretamente na interpolação, a expressão que retorna uma das duas strings acima.
 
 */
