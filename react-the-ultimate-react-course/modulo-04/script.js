@@ -229,3 +229,29 @@ function getBook(id) {
   Exiba no console o retorno da expressão que acessa a propriedade "pages" do objeto "updatedBook2".
 
 */
+
+/*
+
+08) Aula 20 - Template literals:
+
+  Crie uma variável "myBook" com a palavra-chave "let" que recebe o retorno da invocação da função "getBook", passando como argumento da função um número de sua escolha entre 1 e 4 (incluindo o 1 e o 4) que representa o id de um dos objeto do array "data".
+
+  Use a sintaxe de destructuring assignment para obter os valores das propriedades "title", "author", "pages" e "publicationDate" que estão no objeto "myBook" e mude o nome das variáveis seguindo o padrão em que a variável "title" passa a ser "myTitle" e assim por diante.
+
+  Crie uma constante de nome "summary" que recebe o valor: "TITULO_DO_LIVRO, a NUMERO_DE_PÁGINAS-page long book, was written by AUTOR_DO_LIVRO and published in DATA_DA_PUBLICAÇÃO."
+
+  Insira os valores corretos que foram extraidos do objeto "myBook" na string acima através de interpolações usando template literals. 
+
+  Exiba o resultado da constante "summary" no console.
+
+*/
+
+/*
+
+09) Aula 20 - Template literals:
+
+  Faça com que a variável "myBook" receba o mesmo valor da questão acima, com a diferença que a expressão que retorna o valor da "DATA_DA_PUBLICAÇÃO", retorne apenas o ano do livro.
+
+  Use o método "split" para isso.
+
+*/
