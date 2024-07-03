@@ -275,3 +275,15 @@ function getBook(id) {
   Faça uma interpolação utilizando Template Literals e coloque diretamente na interpolação, a expressão que retorna uma das duas strings acima.
 
 */
+
+/*
+
+12) Aula 22 - Arrow functions:
+
+  Faça com que a variável "myBook" receba o mesmo valor da questão *09*.
+
+  Dessa vez, crie uma constante "getYear" que armazena uma arrow function e recebe como argumento, uma string no modelo "ano-mês-dia" e retorna apenas o ano.
+
+  Use a função para substituir a "DATA_DA_PUBLICAÇÃO" pelo valor correto.
+
+*/
