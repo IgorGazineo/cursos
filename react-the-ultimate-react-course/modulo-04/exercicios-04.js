@@ -287,3 +287,32 @@ function getBook(id) {
   Use a função para substituir a "DATA_DA_PUBLICAÇÃO" pelo valor correto.
 
 */
+
+/*
+
+13) Aula 23 - Short-Circuiting e operadores lógicos &&, ||, ??:
+
+  And operator &&:
+    Crie uma variável "andOperatorResult" que recebe o retorno de uma expressão que compara um valor truthy: "'Hello'" e um valor falsy: *0* usando o operador "And".
+
+    Tente adivinhar qual valor a expressão irá retornar antes de exibir a variável no console.
+
+    Agora faça a "andOperatorResult" receber o retorno de uma expressão com os valores invertidos osando o mesmo operador e exiba a "andOperatorResult" no console.
+
+  Or operator ||:
+    Crie uma variável "userName" que recebe o retorno de um "prompt" com a mensagem: "Digite seu nome:". Caso o valor seja truthy, a expressão deve retornar o valor do nome, e caso seja falsy, a expressão deve retornar o valor "Nome de usuário inválido". Use o operador "or" para isso.
+
+    Exiba no console a string "O nome do usuário é NOME_DO_USUÁRIO" substituindo pelo valor correto.
+
+    Perceba que o operador "or" retorna o primeiro valor caso seja do tipo truthy, ou o segundo valor caso o primeiro seja falsy.
+    
+  Nullish Coalescing operator ??:
+    Crie uma constante "students" que redebe o array: [{name: 'Ricardo', grade: 7.5}, {name: 'Carla', grade: null}, {name: 'João', grade: 0}]
+
+    Através de uma iteração, exiba no console a string "O aluno NOME_DO_ALUNO recebeu a nota NOTA_DO_ALUNO." para cada aluno do array.
+
+    Caso a nota seja do tipo null, exiba a string "'NOTA NÃO DISPONÍVEL'".
+
+    Use o operador Nullish Coalescig para isso.
+
+*/
