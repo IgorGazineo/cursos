@@ -307,12 +307,31 @@ function getBook(id) {
     Perceba que o operador "or" retorna o primeiro valor caso seja do tipo truthy, ou o segundo valor caso o primeiro seja falsy.
     
   Nullish Coalescing operator ??:
-    Crie uma constante "students" que redebe o array: [{name: 'Ricardo', grade: 7.5}, {name: 'Carla', grade: null}, {name: 'João', grade: 0}]
+    Crie uma constante "students" que redebe o array: "[{name: 'Ricardo', grade: 7.5}, {name: 'Carla', grade: null}, {name: 'João', grade: 0}]".
 
     Através de uma iteração, exiba no console a string "O aluno NOME_DO_ALUNO recebeu a nota NOTA_DO_ALUNO." para cada aluno do array.
 
     Caso a nota seja do tipo null, exiba a string "'NOTA NÃO DISPONÍVEL'".
 
     Use o operador Nullish Coalescig para isso.
+
+*/
+
+/*
+
+14) Aula 24 - Optional Chaining:
+
+  Crie uma constante "studentsArray" que recebe o array: "[
+        { name: "Ricardo", grades: { firstGrade: 7.5, secondGrade: 6.5 } },
+        { name: "Carla" },
+        { name: "João", grades: { firstGrade: 0, secondGrade: 3.5 } },
+        { name: "Luara", grades: { firstGrade: 9.5, secondGrade: 9.8 } },
+      ]".
+
+  Crie uma função chamada "getTotalGrade" que recebe por parâmetro um array de estudantes e retorna o valor total das notas deles.
+
+  Passe como argumento o array "studentsArray" e exiba o resultado no console.
+
+  Use o operador Optional Chaining para garantir que não aconteça um erro caso o objeto do aluno não possua uma propriedade com as notas.
 
 */
