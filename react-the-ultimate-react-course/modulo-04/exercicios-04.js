@@ -335,3 +335,19 @@ function getBook(id) {
   Use o operador Optional Chaining para garantir que não aconteça um erro caso o objeto do aluno não possua uma propriedade com as notas.
 
 */
+
+/*
+
+15) Aula 25 - O método de array "Map":
+
+  Crie uma constante com o nome "oneToTen" que recebe um array com os números de *1* até *10*.
+
+  Com o método "map", crie uma expressão que retorna um array onde cada número do array tem o dobro do valor do array "oneToTen". Armazene o array em uma constante "oneToTenDoubled" e exiba no console.
+
+  Crie uma constante com o nome da sua escolha, e armazene o array de livros através da função "getBooks".
+
+  Usando o método "map", crie uma expressão que retorna um array com os títulos de cada livro e utilizando "Destructuring" e o operador "rest", crie 3 constantes, uma para armazenar o primeiro título, uma para p segundo título e a outra para os outros títulos e exiba as constantes no console.
+
+  Crie uma constante "essentialData" que armazena um array contendo apenas o título e o autor do livro em cada elemento. Utilize o método "map" para criar essa expressão e ao armazenar na constante, exiba o resultado no console.
+
+*/
