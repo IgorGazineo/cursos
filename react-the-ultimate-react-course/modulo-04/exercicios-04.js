@@ -344,10 +344,20 @@ function getBook(id) {
 
   Com o método "map", crie uma expressão que retorna um array onde cada número do array tem o dobro do valor do array "oneToTen". Armazene o array em uma constante "oneToTenDoubled" e exiba no console.
 
-  Crie uma constante com o nome da sua escolha, e armazene o array de livros através da função "getBooks".
+  Crie uma constante "arrayOfBooks", e armazene o array de livros através da função "getBooks".
 
   Usando o método "map", crie uma expressão que retorna um array com os títulos de cada livro e utilizando "Destructuring" e o operador "rest", crie 3 constantes, uma para armazenar o primeiro título, uma para p segundo título e a outra para os outros títulos e exiba as constantes no console.
 
   Crie uma constante "essentialData" que armazena um array contendo apenas o título e o autor do livro em cada elemento. Utilize o método "map" para criar essa expressão e ao armazenar na constante, exiba o resultado no console.
+
+*/
+
+/*
+
+16) Aula 26 - O método de array "Filter":
+
+  Crie uma constante "evenNumbers" e armazene um array com os números pares de *5* até *10*. Utilize o array "oneToTen" e o método "filter" para isso. Se for preciso, você pode encadear um segundo método "filter" após o primeiro. Tente fazer primeiro com a lógica completa na função de callback, e depois encadeando multiplos métodos. Exiba o resultado de "evenNumbers" no console.
+
+  Exiba no console a quantidade de elementos que a constante "arrayOfBooks" armazena. Agora crie uma constante "longBooks" que armazena apenas os livros com mais de 500 páginas que a constante "arrayOfBooks" armazena. Use o método "filter" para isso, e exiba o resutado de "longBooks" no console.
 
 */
