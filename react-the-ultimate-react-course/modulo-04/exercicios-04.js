@@ -210,11 +210,11 @@ function getBook(id) {
 
   Crie uma constante de nome "lordOfTheRingsBook" que recebe o retorno da invocação da função "getBook" passando o valor *1* como argumento.
 
-  Exiba no console o retorno da expressão que acessa a propriedade "moviePublicationDate" do objeto "lordOfTheRingsBook". Ps: O valor retornado deve ser "undefined".
+  Exiba no console o valor da propriedade "moviePublicationDate" do objeto "lordOfTheRingsBook". Ps: O valor retornado deve ser "undefined".
 
   Crie uma constante de nome "updatedBook" e usando o operador spread, faça com que a constante "updatedBook" receba todos os valores do objeto "lordOfTheRingsBook" e mais uma nova propriedade com a chave: "moviePublicationDate" e valor: "2001-12-19".
 
-  Exiba no console o retorno da expressão que acessa a propriedade "pages" do objeto "updatedBook".
+  Exiba no console o valor da propriedade "moviePublicationDate" do objeto "updatedBook".
 
 */
 
@@ -222,7 +222,7 @@ function getBook(id) {
 
 07) Aula 19 - Operador rest/spread:
 
- Exiba no console o retorno da expressão que acessa a propriedade "pages" do objeto "updatedBook".
+  Exiba no console o valor da propriedade "pages" do objeto "updatedBook".
 
   Crie uma constante de nome "updatedBook2" e usando o operador spread, faça com que a constante "updatedBook2" receba todos os valores do objeto "updatedBook" mas com o valor da propriedade "pages" atualizado para: *1220*.
 
