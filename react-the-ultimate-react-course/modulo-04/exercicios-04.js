@@ -361,3 +361,11 @@ function getBook(id) {
   Exiba no console a quantidade de elementos que a constante "arrayOfBooks" armazena. Agora crie uma constante "longBooks" que armazena apenas os livros com mais de 500 páginas que a constante "arrayOfBooks" armazena. Use o método "filter" para isso, e exiba o resutado de "longBooks" no console.
 
 */
+
+/*
+
+17) Aula 27 - O método de array "Reduce":
+
+  Crie uma constante "pagesOfAllBooks" que recebe o valor ta soma de todas as páginas do array "arrayOfBooks". Utilize o método "reduce" para isso e exiba a "pagesOfAllBooks" no console.
+
+*/
