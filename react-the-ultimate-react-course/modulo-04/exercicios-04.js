@@ -369,3 +369,15 @@ function getBook(id) {
   Crie uma constante "pagesOfAllBooks" que recebe o valor ta soma de todas as páginas do array "arrayOfBooks". Utilize o método "reduce" para isso e exiba a "pagesOfAllBooks" no console.
 
 */
+
+/*
+
+18) Aula 28 - O método de array "Sort":
+
+  Crie uma constante "randomNumbers" que recebe o array: "[1, 5, 4, 12, 30, 22, 34, 17]". Crie uma constante "sortedNumbers1" que recebe o valor do array "randomNumbers" com os números ordenados de forma crescente. Use o método "sort" para isso. Exiba o resultado das constantes "randomNumbers" e "sortedNumbers1".
+
+  Crie uma constante "sortedNumbers2" que recebe o valor do array "randomNumbers" com os números ordenados de forma decrescente. Exiba o resultado das constantes "randomNumbers" e "sortedNumbers2".
+
+  Crie uma constante "sortedNumbers2" que recebe o valor do array "randomNumbers" com os números ordenados de forma crescente mas dessa vez, faça com que o array "randomNumbers" não sofra mutação. Exiba o resultado das constantes "randomNumbers" e "sortedNumbers2".
+
+*/
