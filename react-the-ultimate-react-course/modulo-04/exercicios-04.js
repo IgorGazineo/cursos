@@ -381,3 +381,20 @@ function getBook(id) {
   Crie uma constante "sortedNumbers2" que recebe o valor do array "randomNumbers" com os números ordenados de forma crescente mas dessa vez, faça com que o array "randomNumbers" não sofra mutação. Exiba o resultado das constantes "randomNumbers" e "sortedNumbers2".
 
 */
+
+/*
+
+19) Aula 29 - Trabalhando com arrays imutábeis:
+
+  1) Adicionando objeto no array:
+  Crie uma constante "newBook" que recebe o seguinte objeto: "{ id: 6, title: "Harry Potter and the Chamber of Secrets", author: "J. K. Rowling" }".
+
+  Crie uma constante "booksAfterAdd" que recebe um array com todos objetos de array "books", mais o objeto da "newBook". Cada item do array "booksAfterAdd" deve ser um objeto. Exiba "booksAfterAdd" no console.
+
+  2) Deletando objeto no array:
+  Crie uma constante "booksAfterDelete" que recebe o retorno da constante "booksAfterAdd" sem o objeto que possui o ID *3*. Exiba o resultado de "booksAfterDelete" no console.
+
+  3) Atualizar objeto no array:
+  Crie uma constante "booksAfterUpdate" que recebe o retorno da constante "booksAfterDelete" com o objeto de ID *1* modificado. A propriedade "pages" do objeto agora deve conter o valor *1*. Exiba o resultado de "booksAfterUpdate" no console.
+
+*/
