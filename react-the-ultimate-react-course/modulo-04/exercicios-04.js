@@ -403,6 +403,14 @@ function getBook(id) {
 
 20) Aula 30 - JavaScripg assíncrono: Promises:
 
-  Usando a função assíncrona "fetch" do JavaScript, converta a API 'https://jsonplaceholder.typicode.com/todos' de um formato JSON para um objeto JavaScript, e exiba esse objeto no console.
+  Usando o método assíncrono "fetch" do objeto "window", converta a API 'https://jsonplaceholder.typicode.com/todos' de um formato JSON para um objeto JavaScript, e exiba esse objeto no console.
+
+*/
+
+/*
+
+21) Aula 31 - JavaScript assíncrono: Async/Await:
+
+  Crie uma constante "getTodos" que recebe uma função assíncrona e faça a mesma coisa do exercício anterior.
 
 */
