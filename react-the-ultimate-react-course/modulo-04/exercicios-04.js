@@ -398,3 +398,11 @@ function getBook(id) {
   Crie uma constante "booksAfterUpdate" que recebe o retorno da constante "booksAfterDelete" com o objeto de ID *1* modificado. A propriedade "pages" do objeto agora deve conter o valor *1*. Exiba o resultado de "booksAfterUpdate" no console.
 
 */
+
+/*
+
+20) Aula 30 - JavaScripg assíncrono: Promises:
+
+  Usando a função assíncrona "fetch" do JavaScript, converta a API 'https://jsonplaceholder.typicode.com/todos' de um formato JSON para um objeto JavaScript, e exiba esse objeto no console.
+
+*/
