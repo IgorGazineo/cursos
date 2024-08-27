@@ -9,7 +9,8 @@ informação sobre o estado dos arquivos no projeto:
 
 adicionar arquivos com mudança de estado a área de preparação do git:
 -> git add <nome do arquivo> 
-Ex: git add index.html
+Ex1: git add index.html style.css
+Ex2: git add . (adiciona todos os arquivos com mudança de estado)
 
 efetivar (confirmar) a mudança de arquivo no repositório (comitar):
 -> git commit -m "conteúdo que explica a alteração do projeto"
