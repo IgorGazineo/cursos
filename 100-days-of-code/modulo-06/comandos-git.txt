@@ -1,0 +1,16 @@
+checar a versão:         
+-> git --version
+
+inicializar repositódio local: 
+-> git init
+
+informação sobre o estado dos arquivos no projeto:
+-> git status
+
+adicionar arquivos com mudança de estado a área de preparação do git:
+-> git add <nome do arquivo> 
+Ex: git add index.html
+
+efetivar (confirmar) a mudança de arquivo no repositório (comitar):
+-> git commit -m "conteúdo que explica a alteração do projeto"
+Ex: git commit -m "imagem adicionada"
