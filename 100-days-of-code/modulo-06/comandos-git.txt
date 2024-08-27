@@ -14,3 +14,21 @@ Ex: git add index.html
 efetivar (confirmar) a mudança de arquivo no repositório (comitar):
 -> git commit -m "conteúdo que explica a alteração do projeto"
 Ex: git commit -m "imagem adicionada"
+
+abrir o modo de configuração do nome e email:
+-> git config --global --edit
+
+informação sobre nome cadastrado:
+-> git config --global user.name
+
+editar nome cadastrado:
+-> git config --global user.name "Novo Nome"
+
+informação sobre email cadastrado:
+-> git config --global user.email
+
+editar email cadastrado:
+-> git config --global user.email "email@gmail.com"
+
+informação sobre os commits do repositódio (aperte a tecla "q" para sair do modo):
+-> git log 
