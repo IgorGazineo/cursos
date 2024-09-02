@@ -14,7 +14,7 @@
 
 02) Aula 10 - Trabalhando com tipagem: anotação de inferência de tipagem explicita:
 
-    Descomente o código das linhas 21 e 22 e faça com que a declaração da variável 'myAge' aceite a reatribuição de qualquer tipo de dados.
+    Descomente o código das linhas 23 e 24 e faça com que a declaração da variável 'myAge' aceite a reatribuição de qualquer tipo de dados.
 
     Descomente o código da linha 26 a 28 e faça com que a declaração da variável 'myName' não aceite a reatribuição de um tipo que não seja 'string'.
 
