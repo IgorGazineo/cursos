@@ -33,3 +33,24 @@ editar email cadastrado:
 
 informação sobre os commits do repositódio (aperte a tecla "q" para sair do modo):
 -> git log 
+
+listar branchers:
+-> git branch
+
+criar uma nova branch:
+-> git branch nome-da-branch
+
+excluir uma branch:
+-> git branch -d nome-da-branch
+
+renomear uma branch:
+-> git branch -m novo-nome | git branch -m antigo-nome novo-nome
+
+mudar de branch:
+-> git checkout nome-da-branch | git switch nome-da-branch
+
+criar e mudar de branch ao mesmo tempo:
+-> git checkout -b nova-branch | git switch -c nova-branch
+
+mesclar uma branch específica na branch atual:
+-> git merge nome-da-branch
