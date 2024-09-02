@@ -42,17 +42,17 @@
 
 04) Aula 14 - Trabalhando com objetos: 
 
-    Descomente o código abaixo e mude a declaração da variável "user" tipando ela de modo que seja um objeto que siga os seguintes tipos de dado para cada propriedade:
+    Mude a declaração da variável "user" tipando ela de modo que seja um objeto que siga os seguintes tipos de dado para cada propriedade:
         name -> string
         age -> number
         isAdmin -> boolean
         id: string ou number
 
-    Depois de declarar o objeto de forma correta, mude os valores das propriedades para eliminar o erro.
+    Depois de declarar a variável de forma correta, descomente o código abaixo e mude os valores das propriedades para eliminar o erro.
 
 */
 
-// let user: object;
+let user: object;
 
 // user = {
 //   name: "Max",
@@ -60,3 +60,26 @@
 //   isAdmin: "true",
 //   id: "abc",
 // };
+
+/*
+
+05) Aula 15 - Trabalhando com arrays:
+
+    Comente o código da linha 74 e mude a tipagem na declaração da variável "hobbies" de modo que ao descomentar o código onde a variável "hobbies" recebe um array de objetos, não seja detectado nenhum erro pelo typescript.
+
+*/
+
+let hobbies: string[];
+
+hobbies = ["Sports", "Cooking", "Reading"];
+
+// hobbies = [
+//   {
+//     name: "Max",
+//     age: 34,
+//   },
+//   {
+//     name: "Igor",
+//     age: 36,
+//   },
+// ];
