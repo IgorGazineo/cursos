@@ -37,3 +37,26 @@
 
 // let userID = "abc1";
 // userID = 123;
+
+/*
+
+04) Aula 14 - Trabalhando com objetos: 
+
+    Descomente o código abaixo e mude a declaração da variável "user" tipando ela de modo que seja um objeto que siga os seguintes tipos de dado para cada propriedade:
+        name -> string
+        age -> number
+        isAdmin -> boolean
+        id: string ou number
+
+    Depois de declarar o objeto de forma correta, mude os valores das propriedades para eliminar o erro.
+
+*/
+
+// let user: object;
+
+// user = {
+//   name: "Max",
+//   age: "34",
+//   isAdmin: "true",
+//   id: "abc",
+// };
