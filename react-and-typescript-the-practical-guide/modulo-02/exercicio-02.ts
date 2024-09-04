@@ -83,3 +83,15 @@ hobbies = ["Sports", "Cooking", "Reading"];
 //     age: 36,
 //   },
 // ];
+
+/*
+
+06) Aula 16 - Adicionando tipagens a funções:
+
+    Crie uma função que recebe 2 números como argumentos e retorna a soma desses números.
+
+    Adicione tipagens do tipo "number" para os parâmetros e retorno da função.
+
+    Exiba no console a chamada da função, passando como argumentos os números 12 e 30, compile o arquivo typescript e veja o resultado.
+
+*/
