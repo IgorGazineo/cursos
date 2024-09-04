@@ -88,10 +88,30 @@ hobbies = ["Sports", "Cooking", "Reading"];
 
 06) Aula 16 - Adicionando tipagens a funções:
 
-    Crie uma função que recebe 2 números como argumentos e retorna a soma desses números.
+    Crie uma função "add" que vai receber 2 números como argumentos e retorna a soma desses números.
 
     Adicione tipagens do tipo "number" para os parâmetros e retorno da função.
 
     Exiba no console a chamada da função, passando como argumentos os números 12 e 30, compile o arquivo typescript e veja o resultado.
+
+*/
+
+/*
+
+07) Aula 17 - Definindo tipagem e função:
+
+    --- Criando a função ---
+
+    Crie uma função "calculate" que tem 3 parâmetros: "a", "b" e "calcFn".
+
+    Os parâmetros "a" e "b" serão do tipo "number" e o parâmetro "calcFn" será uma função.
+
+    A função "calculate" deve retornar o chamamento da função "calcFn" com os parâmetros "a" e "b".
+
+    --- Tipando a função ---
+
+    Adicione tipagens do tipo "number" para o primeiro e segundo parâmetro dessa função. E para o terceiro parâmetro, adicione tipagens de modo que seja uma função que receba 2 argumentos do tipo "number" e returna um tipo "number". Use as variáveis "c" e "d" na tipagem da função.
+
+    Exiba no console a chamada da função "calculate", passando como argumento os números 7 e 7 para os primeiros parâmetros e a função "add" (criada no exercício anterior) como terceiro argumento. Compile o arquivo .ts e veja o resultado que deve ser 14.
 
 */
