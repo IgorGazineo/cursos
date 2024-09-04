@@ -115,3 +115,11 @@ hobbies = ["Sports", "Cooking", "Reading"];
     Exiba no console a chamada da função "calculate", passando como argumento os números 7 e 7 para os primeiros parâmetros e a função "add" (criada no exercício anterior) como terceiro argumento. Compile o arquivo .ts e veja o resultado que deve ser 14.
 
 */
+
+/*
+
+08) Aula 18 - Criando tipagem personalizada:
+
+    Crie uma tipagem personalizada "AddFn" para a tipagem do parâmetro "calcFn" da função "calculate" do exercício acima, e faça a substituição. 
+
+*/
