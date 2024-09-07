@@ -123,3 +123,16 @@ hobbies = ["Sports", "Cooking", "Reading"];
     Crie uma tipagem personalizada "AddFn" para a tipagem do parâmetro "calcFn" da função "calculate" do exercício acima, e faça a substituição. 
 
 */
+
+/*
+
+09) Aula 19 - Definindo tipagem em objetos com interfaces:
+
+    Crie uma tipagem para um objeto usando a palavra-chave "interface". Dê o nome dessa tipagem de "Credentials" e use as seguintes "propriedades" e "tipagens" do objeto:
+
+        password -> string
+        email -> string
+
+    Adicione essa tipagem na declaração da variável "creds" e atribua a essa variável um objeto que siga os padrões da tipagem que foi estabelecida.
+    
+*/
