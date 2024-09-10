@@ -172,3 +172,21 @@ hobbies = ["Sports", "Cooking", "Reading"];
     Crie uma variável "role" que a tipagem deve ser do tipo "string" e que só aceita os valores "user", "admin" ou "editor".
 
 */
+
+/*
+
+13) Aula 23 - Adicionando tipagens de guarda:
+
+    Recorte e cole abaixo o código do exercício acima.
+
+    Antes do código colado, crie uma tipagem "Role" usando a palavra-chave "type" que só aceita os valores "user", "admin" ou "editor".
+
+    Substitua a tipagem da variável "rola" pela tipagem "Role" criada acima.
+
+    Crie uma function "performAction" que tem os parâmetros "action" e "role". Tipe o parâmetro "action" com o tipo "string" ou "number" e o parâmetro "role" com a tipagem "Role".
+
+    Dentro da função, crie uma condição que exiba no console a mensagem "O usuário tem permissão de admin" caso o parâmetro "action" seja do tipo "string" e o parâmetro "role" tenha o valor "admin".
+
+    Invoque a função passando argumentos para testar e compile o arquivo ts para js para ver o resultado no console.
+
+*/
