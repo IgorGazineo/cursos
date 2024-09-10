@@ -136,3 +136,15 @@ hobbies = ["Sports", "Cooking", "Reading"];
     Adicione essa tipagem na declaração da variável "creds" e atribua a essa variável um objeto que siga os padrões da tipagem que foi estabelecida.
     
 */
+
+/*
+
+10) Aula 20 - Interfaces vs types customizados:
+
+    Crie uma classe "AuthCredentials" e implemente a tipagem "Credentials" que foi criada no exercício acima e adicione uma tipagem de propriedade "userName" do tipo "string".
+
+    Crie uma função "login" que tem como parâmetro uma variável "credentials" com a tipagem "Credentials" criada acima. Invoque a função "login" passando como argumento a instância da classe "AuthCredentials".
+
+    Abaixo da criação da interface "Credentials", adicione uma tipagem com uma propriedade "mode" do tipo "string". Pra isso, use a palavra-chave "interface".
+
+*/
