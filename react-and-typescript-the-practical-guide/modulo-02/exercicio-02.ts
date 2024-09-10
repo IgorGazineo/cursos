@@ -148,3 +148,19 @@ hobbies = ["Sports", "Cooking", "Reading"];
     Abaixo da criação da interface "Credentials", adicione uma tipagem com uma propriedade "mode" do tipo "string". Pra isso, use a palavra-chave "interface".
 
 */
+
+/*
+
+11) Aula 21 - Unindo tipagens:
+
+    Crie uma tipagem para um objeto "Admin" usando a palavra-chave "type", de um objeto que tem uma propriedade "permissions" que recebe um array de strings.
+
+    Crie uma tipagem para um objeto "AppUser" usando a palavra-chave "type", de um objeto que tem uma propriedade "userName" que recebe uma string.
+
+    Crie uma tipagem para um objeto "AppAdmin" usando a palavra-chave "type", que seja uma combinação das tipagens "Admin" e "AppUser".
+
+    Crie uma variável "admin" que recebe a tipagem "AppAdmin" e depois atribua a essa variável um objeto com as tipagens que foram definidas.
+
+    Comente o código criado nessa aula até aqui, e crie as mesmas tipagens usando a palavra-chave "interface".
+
+*/
