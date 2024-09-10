@@ -164,3 +164,11 @@ hobbies = ["Sports", "Cooking", "Reading"];
     Comente o código criado nessa aula até aqui, e crie as mesmas tipagens usando a palavra-chave "interface".
 
 */
+
+/*
+
+12) Aula 22 - Sendo específico com tipagens literais:
+
+    Crie uma variável "role" que a tipagem deve ser do tipo "string" e que só aceita os valores "user", "admin" ou "editor".
+
+*/
