@@ -190,3 +190,21 @@ hobbies = ["Sports", "Cooking", "Reading"];
     Invoque a função passando argumentos para testar e compile o arquivo ts para js para ver o resultado no console.
 
 */
+
+/*
+
+14) Aula 25 - Dando sentido a tipagem genérica:
+
+    Crie uma variável "roles" que tem uma tipagem de um array de strings com os valores "admin", "user" ou "editor" e para isso, use a tipagem "Role" já criada em exercícios anteriores.
+
+    Atribua a essa variável um valor que seja compatível com sua tipagem.
+
+    Crie uma tipagem "DataStorage" com a palavra-chave "type" para tipar um objeto com um valor genérico. 
+    
+    O objeto deve receber uma propriedade "storage" que recebe um array de um tipo genério e uma função "add" que tem um parâmetro "data" de um tipo genérico e o retorno "void".
+
+    Declare um objeto "textStorage" que recebe a tipagem "DataStorage" onde o tipo genério seja uma "string". O método "add" do objeto "textStorage" deve conter a seguinte lógica: "this.storage.push(data)".
+
+    Declare um objeto "userStorage" que recebe a tipagem "DataStorage" onde o tipo genério seja "User" (um array de objetos criado anteriormente). O método "add" do objeto "userStorage" deve conter um parâmetro "user".
+
+*/
