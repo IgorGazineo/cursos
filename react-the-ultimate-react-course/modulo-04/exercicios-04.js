@@ -378,7 +378,7 @@ function getBook(id) {
 
   Crie uma constante "sortedNumbers2" que recebe o valor do array "randomNumbers" com os números ordenados de forma decrescente. Exiba o resultado das constantes "randomNumbers" e "sortedNumbers2".
 
-  Crie uma constante "sortedNumbers2" que recebe o valor do array "randomNumbers" com os números ordenados de forma crescente mas dessa vez, faça com que o array "randomNumbers" não sofra mutação. Exiba o resultado das constantes "randomNumbers" e "sortedNumbers2".
+  Crie uma constante "sortedNumbers3" que recebe o valor do array "randomNumbers" com os números ordenados de forma crescente mas dessa vez, faça com que o array "randomNumbers" não sofra mutação. Exiba o resultado das constantes "randomNumbers" e "sortedNumbers2".
 
 */
 
