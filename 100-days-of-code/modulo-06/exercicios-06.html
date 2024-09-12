@@ -254,7 +254,7 @@
 
 11) Aula 111 - Entendendo o token de acesso pessoal e "git clone" pt1:
 
-    Crie um token de acesso pessoal no Github para ter acesso ao repositório criado indo em "settings", "Developer settings" e então "Personal access token".
+    Crie um token de acesso pessoal no Github para ter acesso ao repositório criado indo no seu perfil e clicando em "settings", "Developer settings" e então "Personal access token".
 
     Gere um novo token clicando em "Generate new token".
 
@@ -291,5 +291,49 @@
     Faça um commit da alteração com a mensagem "added local text file after clone".
 
     Aplique o comando "git push origin main", clique em "Cancel" e aplique o username e o token novamente.
+
+-->
+
+<!-- 
+
+13) Aula 112 - Colaborando em projetos - colaboradores e organizações pt1:
+
+    Crie um repositório remoto privado na sua conta secundária do Github chamado "shopping-site".
+
+    Através do Github, cria um arquivo "landing-page.txt" nesse repositório com o conteúdo "Code for the lading page of the shopping website".
+
+    Através do Github, faça um commit dessa alteração com a mensagem "added landing page".
+
+    Clique na opção "Settings" do repositório e clique em "Manage access" para adicionar um colaborador ao seu repositório.
+
+    Clique em "Invite a collaborator" e adicione o email, username ou nome completo da sua conta principal e adicione-o como colaborador desse repositório. Agora basta aceitar o convinte indo na sua conta principal.
+
+    Crie uma pasta "collaborate" na sua área de trabalho e clone esse repositório nessa pasta. 
+
+-->
+
+<!-- 
+
+14) Aula 112 - Colaborando em projetos - colaboradores e organizações pt2:
+
+    Adicione um arquivo "team-page.txt" no projeto.
+
+    Aplique os comandos abaixo para deletar o acesso ao token:
+
+        git credential reject => ENTER
+        host=github.com => ENTER
+        protocol=https => ENTER
+
+    Crie um commit com a mensagem "added team-page".
+
+    Gere um token "web-dev-course".
+
+    Aplique o comando "git push origin main" para empurrar as alterações para o repositório remoto e use o token gerado para ter acesso a executar essa alteração. Lembre de usar o usuário da sua conta principal.
+
+    Na conta secundária, adicione um arquivo "added-remote.txt" através do Github e faça o commmit com a mensagem "added remote txt file".
+
+    Aplique o comando "git pull" no projeto local para atualizar as alterações do repositório remoto.
+
+    Aplique o comando "git log".
 
 -->
