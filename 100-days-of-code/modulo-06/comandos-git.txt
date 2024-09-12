@@ -1,7 +1,7 @@
 checar a versão:         
 -> git --version
 
-inicializar repositódio local: 
+inicializar repositório local: 
 -> git init
 
 informação sobre o estado dos arquivos no projeto:
@@ -31,7 +31,7 @@ informação sobre email cadastrado:
 editar email cadastrado:
 -> git config --global user.email "email@gmail.com"
 
-informação sobre os commits do repositódio (aperte a tecla "q" para sair do modo):
+informação sobre os commits do repositório (aperte a tecla "q" para sair do modo):
 -> git log 
 
 listar branchers:
@@ -54,3 +54,6 @@ criar e mudar de branch ao mesmo tempo:
 
 mesclar uma branch específica na branch atual:
 -> git merge nome-da-branch
+
+cria uma conexão entre o repositório local e o repositório remoto:
+-> git remote add origin <url do repositório>
