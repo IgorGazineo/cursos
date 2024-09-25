@@ -15,19 +15,6 @@ body {
   color: #333;
 }
 
-.steps {
-  width: 600px;
-  background-color: #f7f7f7;
-  border-radius: 7px;
-  padding: 25px 100px;
-  margin: 100px auto;
-}
-
-.numbers {
-  display: flex;
-  justify-content: space-between;
-}
-
 .numbers > div {
   height: 40px;
   aspect-ratio: 1;
