@@ -1,0 +1,42 @@
+html {
+  font-size: 20px;
+}
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+}
+
+#header01 {
+  padding: 1rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: rgb(124, 135, 138);
+  margin-bottom: 20px;
+}
+
+#logo01 {
+  background-color: aliceblue;
+  font-size: 1.4rem;
+  font-weight: bold;
+  cursor: default;
+  padding: 0.5rem;
+  border-radius: 6px;
+}
+
+#nav01 {
+  display: flex;
+  gap: 2rem;
+}
+
+.link01 {
+  cursor: pointer;
+  color: rgb(34, 34, 34);
+}
+
+@media (max-width: 600px) {
+  html {
+    font-size: 14px;
+  }
+}

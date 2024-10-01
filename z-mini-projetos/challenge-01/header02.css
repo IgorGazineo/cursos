@@ -1,0 +1,59 @@
+/* 
+    ***** Desafio 01 *****
+
+Faça uma cópia do componente header01 estilizando o componente header02 da mesma forma.
+
+**** Estrutura HTML ****
+
+<div id="header02">
+      <div id="logo02">Logo</div>
+      <div id="nav02">
+        <div class="link02">Link 01</div>
+        <div class="link02">Link 02</div>
+        <div class="link02">Link 03</div>
+      </div>
+    </div>
+*/
+
+/*
+**** Informações CSS  ****
+
+    #header02 {
+    cor de fundo: rgb(124, 135, 138)
+    
+    espaçamento interno: 1rem
+    }
+
+*/
+
+/* 
+    #logo02 {
+    cor de fundo: aliceblue
+    espaçamento interno: 0.5rem
+    tamanho da fonte: 1.4rem
+    família da fonte: sans-serif
+    peso da fonte: bold
+    cursor: padrão
+    arredondamento da borda: 6px
+    }
+
+*/
+
+/* 
+    #nav02 {
+    afastamento: 2rem
+    }
+
+*/
+
+/* 
+    .link02 {
+    cursor: pointer
+    cor de texto: rgb(34, 34, 34)
+    }
+
+*/
+
+/* 
+    responsividade: altere na raiz, o tamanho da fonte para 14px para telas com largura de 600px ou menor.
+*/
