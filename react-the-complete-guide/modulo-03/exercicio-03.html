@@ -138,6 +138,8 @@
 
 11) Aula 51 - Passando funções como valores de props:
 
+    No componente "App" abaixo do componente "menu", escreva o texto "Dynamic Content"
+
     No componente "TabButton", adicione um segundo parâmetro "onSelect" para a função "TabButton". Passe esse parâmetro como valor para a propriedade "onClick" do botão que a "TabButton" retorna.
 
     Corte a função "handleClick" do componente "TabButton" e cole-a no topo do escopo da função "App" e renomei-a para "handleSelect". No componente "App", substitua o nome da propriedade "onClick" do componente "TabButton" para "onSelect".
@@ -159,5 +161,17 @@
     Faça o mesmo para os outros componentes "TabButton" passado como argumento os valores: 'jsx', 'props' e 'state'.
 
     Altere o console da função "handleSelect" para mostrar no browser o resultado da variável "selectedButton".
+
+-->
+
+<!-- 
+
+13) Aula 53 - Como não atualizar a interface de usuário:
+
+    No topo do escopo da função "App", declare uma variável "tabContent" recebendo uma string "Please click a button".
+
+    Na função "handleSelect", delete o console e faça com que a variável "tabContent" receba o valor que será passado como argumento para a variável "selectedButton" e exiba o valor da "tabContent" no console.
+
+    No lugar do texto "Dynamic Content", abra o modo JS e insira a variável "tabContent".
 
 -->
