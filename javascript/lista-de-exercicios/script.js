@@ -42,3 +42,24 @@ const myName1 = "Igor Gazineo Rebouças";
 */
 
 const myName2 = "Igor Gazineo Rebouças";
+
+/*
+
+05) Insira os valores corretos nas consts "arg1" e "arg2" para que a const "x" receba o valor "bananas".  
+
+*/
+
+const txt = "I can eat bananas all day";
+const arg1 = 0;
+const arg2 = 0;
+const x = txt.slice(arg1, arg2);
+console.log(x);
+
+/*
+
+06) Descomente o código abaixo e escreva uma expressão para substituir a palavra "Hello" pela palavra "Welcome".
+
+*/
+
+// let txt = "Hello World";
+// txt = EXPRESSÃO;
