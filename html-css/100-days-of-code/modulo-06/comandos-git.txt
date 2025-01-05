@@ -57,3 +57,8 @@ mesclar uma branch específica na branch atual:
 
 cria uma conexão entre o repositório local e o repositório remoto:
 -> git remote add origin <url do repositório>
+
+resetar token da conta do github
+-> git credential reject => ENTER
+host=github.com => ENTER
+protocol=https => ENTER
